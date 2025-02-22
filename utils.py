@@ -39,7 +39,10 @@ def custom_sell_condition(message):
 
         # If this is the first time we are seeing this token, we store its market cap and timestamp
         if mint not in market_cap_history:
-            market_cap_history[mint] = {'market_cap': current_market_cap, 'timestamp': current_time}
+            market_cap_history[mint] = {
+                'market_cap': current_market_cap, 
+                'timestamp': current_time
+            }
             return False  # No decision yet
 
         # Get the previous market cap and timestamp
