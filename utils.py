@@ -10,8 +10,6 @@ def record_trade_time(mint):
     if mint in coins[0]:
         index = coins[0].index(mint)
         coins[1][index] = time.time()  # Update the trade time
-    else:
-        pass
 
 def extract_mint(message):
     current_time = time.time()
@@ -25,8 +23,6 @@ def extract_mint(message):
             oldest_trade_index = coins[1].index(min(coins[1]))
             coins[0].pop(oldest_trade_index)
             coins[1].pop(oldest_trade_index)
-        else:
-            pass
     else:
         print("Market cap too high")
 
