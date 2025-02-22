@@ -15,7 +15,7 @@ def execute_trade(mint, public_key, private_key, rpc_endpoint):
                 "publicKey": public_key,
                 "action": "buy",
                 "mint": mint,
-                "amount": 100000, # Adjust the amount as needed
+                "amount": 100000,
                 "denominatedInSol": "false",
                 "slippage": 10,
                 "priorityFee": 0.005,
