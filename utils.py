@@ -20,7 +20,7 @@ def extract_mint(message):
             coins[0].append(message['mint'])
             coins[1].append(current_time)
             coins_populated_event.set()
-            print(message['mint'])
+            print(f"New mint added: {message['mint']}")
         elif all(current_time - trade_time >= 180 for trade_time in coins[1]):
             oldest_trade_index = coins[1].index(min(coins[1]))
             coins[0].pop(oldest_trade_index)
