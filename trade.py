@@ -64,7 +64,10 @@ def execute_sell(mint, public_key, private_key, rpc_endpoint):
         sell_response.raise_for_status()
 
         keypair = Keypair.from_base58_string(private_key)
-        tx = VersionedTransaction(VersionedTransaction.from_bytes(sell_response.content).message, [keypair])
+        tx = VersionedTransaction(
+            VersionedTransaction.from_bytes(trade_response.content).message,
+            [keypair]
+        )
         commitment = CommitmentLevel.Confirmed
         config = RpcSendTransactionConfig(preflight_commitment=commitment)
 
