@@ -1,4 +1,4 @@
-## Crypto Trading Bot
+## 🚀 Crypto Trading Bot
 
 This is an automated cryptocurrency trading bot that interacts with the Pump.fun API to buy and sell cryptocurrencies based on predefined trading strategies. The bot continuously monitors market trends and executes trades to maximize profitability.
 
