@@ -72,7 +72,7 @@ def execute_sell(mint, public_key, private_key, rpc_endpoint):
         commitment = CommitmentLevel.Confirmed
         config = RpcSendTransactionConfig(preflight_commitment=commitment)
         
-        
+        # Sending transaction to RPC endpoint
         tx_payload = SendVersionedTransaction(tx, config)
         rpc_response = requests.post(
             url=rpc_endpoint,
