@@ -77,7 +77,7 @@ def execute_sell(mint, public_key, private_key, rpc_endpoint):
             headers={"Content-Type": "application/json"},
             data=tx_payload.to_json()
         )
-
+        # Handling response
         if rpc_response.status_code == 200 and 'result' in rpc_response.json():
             tx_signature = rpc_response.json()['result']
             print(f"Sell transaction successful: https://solscan.io/tx/{tx_signature}")
