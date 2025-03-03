@@ -24,7 +24,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 **Create a virtual environment (optional but recommended)**:
 
 - python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+- source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 **Install dependencies**:
 
