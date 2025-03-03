@@ -28,7 +28,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 **Install dependencies**:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 **Set up your API keys**:
 
