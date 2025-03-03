@@ -18,7 +18,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 **Clone the repository**:
 
-git clone https://github.com/yourusername/Icarus-crypto-bot.git
+- git clone https://github.com/yourusername/Icarus-crypto-bot.git
 cd Icarus-trading-bot
 
 **Create a virtual environment (optional but recommended)**:
