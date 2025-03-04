@@ -36,7 +36,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 **Create a .env file and add your credentials**:
 
-PUMP_FUN_API_KEY=your_api_key_here
+- PUMP_FUN_API_KEY=your_api_key_here
 
 ## ⚙️ Configuration
 
