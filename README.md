@@ -32,7 +32,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 **Set up your API keys**:
 
-Obtain an API key from Pump.fun
+- Obtain an API key from Pump.fun
 
 **Create a .env file and add your credentials**:
 
