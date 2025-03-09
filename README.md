@@ -4,7 +4,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 ## 🔥 Features
 
--**Automated Trading**: Executes buy and sell orders based on market conditions.
+- **Automated Trading**: Executes buy and sell orders based on market conditions.
 
 **Pump.fun API Integration**: Interacts with the Pump.fun API for real-time trading.
 
