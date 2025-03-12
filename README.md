@@ -10,7 +10,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 - **Customizable Strategies**: Supports different trading strategies such as scalping, trend following, and arbitrage.
 
-**Risk Management**: Includes stop-loss and take-profit mechanisms.
+-**Risk Management**: Includes stop-loss and take-profit mechanisms.
 
 **Logging and Monitoring**: Keeps track of executed trades and market conditions.
 
