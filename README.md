@@ -8,7 +8,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 - **Pump.fun API Integration**: Interacts with the Pump.fun API for real-time trading.
 
-**Customizable Strategies**: Supports different trading strategies such as scalping, trend following, and arbitrage.
+-**Customizable Strategies**: Supports different trading strategies such as scalping, trend following, and arbitrage.
 
 **Risk Management**: Includes stop-loss and take-profit mechanisms.
 
