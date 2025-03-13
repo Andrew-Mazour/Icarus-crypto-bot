@@ -12,7 +12,7 @@ This is an automated cryptocurrency trading bot that interacts with the Pump.fun
 
 - **Risk Management**: Includes stop-loss and take-profit mechanisms.
 
--**Logging and Monitoring**: Keeps track of executed trades and market conditions.
+- **Logging and Monitoring**: Keeps track of executed trades and market conditions.
 
 ## 📥 Installation
 
