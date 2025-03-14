@@ -54,7 +54,7 @@ A simple strategy that buys when the price drops by 5% and sells when it increas
 
 - BUY_THRESHOLD = -5  # Buy when price drops 5%  
 - SELL_THRESHOLD = 10  # Sell when price rises 10%  
-STOP_LOSS = -8       # Stop-loss at 8%
+-STOP_LOSS = -8       # Stop-loss at 8%
 
 ## 📊 Logging and Monitoring
 
